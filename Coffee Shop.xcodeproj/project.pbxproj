@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,20 @@
 		652999B628B8E48F0088D96E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652999B428B8E48F0088D96E /* LaunchScreen.storyboard */; };
 		652999C128B8E4900088D96E /* Coffee_ShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652999C028B8E4900088D96E /* Coffee_ShopTests.swift */; };
 		652999CC28B8E4900088D96E /* Coffee_ShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652999CB28B8E4900088D96E /* Coffee_ShopUITests.swift */; };
+		652999E628B8E5EF0088D96E /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652999E528B8E5EF0088D96E /* MyColor.swift */; };
+		652999E828B8E6920088D96E /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652999E728B8E6920088D96E /* SplashScreen.swift */; };
+		652999EA28B8E6D20088D96E /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652999E928B8E6D20088D96E /* LoginScreen.swift */; };
+		65724C3028BA09F800628AC1 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65724C2F28BA09F800628AC1 /* WelcomeScreen.swift */; };
+		65724C3228BA0E6800628AC1 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65724C3128BA0E6800628AC1 /* Dictionary.swift */; };
+		65724C3428BA107D00628AC1 /* MyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65724C3328BA107D00628AC1 /* MyImage.swift */; };
+		65724C3628BA198200628AC1 /* ButtonGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65724C3528BA198200628AC1 /* ButtonGeneral.swift */; };
+		65724C3828BB759F00628AC1 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 65724C3728BB759F00628AC1 /* GoogleService-Info (1).plist */; };
+		65724C3B28BB796F00628AC1 /* SwiftyDropbox in Frameworks */ = {isa = PBXBuildFile; productRef = 65724C3A28BB796F00628AC1 /* SwiftyDropbox */; };
+		65724C3E28BB7C7300628AC1 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 65724C3D28BB7C7300628AC1 /* RxSwift */; };
+		65724C4028BB7C7300628AC1 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = 65724C3F28BB7C7300628AC1 /* RxTest */; };
+		65724C4228BB7C7300628AC1 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 65724C4128BB7C7300628AC1 /* RxRelay */; };
+		65724C4428BB7C7300628AC1 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 65724C4328BB7C7300628AC1 /* RxCocoa */; };
+		65724C4628BB7C7300628AC1 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 65724C4528BB7C7300628AC1 /* RxBlocking */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +63,14 @@
 		652999C728B8E4900088D96E /* Coffee ShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee ShopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		652999CB28B8E4900088D96E /* Coffee_ShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_ShopUITests.swift; sourceTree = "<group>"; };
 		652999CD28B8E4900088D96E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652999E528B8E5EF0088D96E /* MyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
+		652999E728B8E6920088D96E /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; usesTabs = 0; };
+		652999E928B8E6D20088D96E /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		65724C2F28BA09F800628AC1 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		65724C3128BA0E6800628AC1 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		65724C3328BA107D00628AC1 /* MyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImage.swift; sourceTree = "<group>"; };
+		65724C3528BA198200628AC1 /* ButtonGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGeneral.swift; sourceTree = "<group>"; };
+		65724C3728BB759F00628AC1 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65724C3E28BB7C7300628AC1 /* RxSwift in Frameworks */,
+				65724C4628BB7C7300628AC1 /* RxBlocking in Frameworks */,
+				65724C4028BB7C7300628AC1 /* RxTest in Frameworks */,
+				65724C4428BB7C7300628AC1 /* RxCocoa in Frameworks */,
+				65724C4228BB7C7300628AC1 /* RxRelay in Frameworks */,
+				65724C3B28BB796F00628AC1 /* SwiftyDropbox in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,11 +127,15 @@
 		652999A828B8E48E0088D96E /* Coffee Shop */ = {
 			isa = PBXGroup;
 			children = (
+				652999DE28B8E5760088D96E /* Controller */,
+				652999DD28B8E5570088D96E /* Models */,
+				652999DC28B8E5400088D96E /* View */,
 				652999A928B8E48E0088D96E /* AppDelegate.swift */,
 				652999AB28B8E48E0088D96E /* SceneDelegate.swift */,
 				652999AD28B8E48E0088D96E /* ContentView.swift */,
 				652999AF28B8E48F0088D96E /* Assets.xcassets */,
 				652999B428B8E48F0088D96E /* LaunchScreen.storyboard */,
+				65724C3728BB759F00628AC1 /* GoogleService-Info (1).plist */,
 				652999B728B8E48F0088D96E /* Info.plist */,
 				652999B128B8E48F0088D96E /* Preview Content */,
 			);
@@ -136,6 +168,82 @@
 			path = "Coffee ShopUITests";
 			sourceTree = "<group>";
 		};
+		652999DC28B8E5400088D96E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				652999E028B8E5920088D96E /* UI */,
+				652999DF28B8E5860088D96E /* Utils */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		652999DD28B8E5570088D96E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		652999DE28B8E5760088D96E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		652999DF28B8E5860088D96E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				652999E528B8E5EF0088D96E /* MyColor.swift */,
+				65724C3128BA0E6800628AC1 /* Dictionary.swift */,
+				65724C3328BA107D00628AC1 /* MyImage.swift */,
+				65724C3528BA198200628AC1 /* ButtonGeneral.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		652999E028B8E5920088D96E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				652999E428B8E5D00088D96E /* Register */,
+				652999E328B8E5C50088D96E /* Login */,
+				652999E228B8E5B90088D96E /* WelcomeScreen */,
+				652999E128B8E5A80088D96E /* SplashScreen */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		652999E128B8E5A80088D96E /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				652999E728B8E6920088D96E /* SplashScreen.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		652999E228B8E5B90088D96E /* WelcomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				65724C2F28BA09F800628AC1 /* WelcomeScreen.swift */,
+			);
+			path = WelcomeScreen;
+			sourceTree = "<group>";
+		};
+		652999E328B8E5C50088D96E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				652999E928B8E6D20088D96E /* LoginScreen.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		652999E428B8E5D00088D96E /* Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +260,14 @@
 			dependencies = (
 			);
 			name = "Coffee Shop";
+			packageProductDependencies = (
+				65724C3A28BB796F00628AC1 /* SwiftyDropbox */,
+				65724C3D28BB7C7300628AC1 /* RxSwift */,
+				65724C3F28BB7C7300628AC1 /* RxTest */,
+				65724C4128BB7C7300628AC1 /* RxRelay */,
+				65724C4328BB7C7300628AC1 /* RxCocoa */,
+				65724C4528BB7C7300628AC1 /* RxBlocking */,
+			);
 			productName = "Coffee Shop";
 			productReference = 652999A628B8E48E0088D96E /* Coffee Shop.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +340,10 @@
 				Base,
 			);
 			mainGroup = 6529999D28B8E48E0088D96E;
+			packageReferences = (
+				65724C3928BB796F00628AC1 /* XCRemoteSwiftPackageReference "SwiftyDropbox" */,
+				65724C3C28BB7C7200628AC1 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 652999A728B8E48E0088D96E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -243,6 +363,7 @@
 				652999B628B8E48F0088D96E /* LaunchScreen.storyboard in Resources */,
 				652999B328B8E48F0088D96E /* Preview Assets.xcassets in Resources */,
 				652999B028B8E48F0088D96E /* Assets.xcassets in Resources */,
+				65724C3828BB759F00628AC1 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +388,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652999E828B8E6920088D96E /* SplashScreen.swift in Sources */,
+				65724C3228BA0E6800628AC1 /* Dictionary.swift in Sources */,
 				652999AA28B8E48E0088D96E /* AppDelegate.swift in Sources */,
+				652999E628B8E5EF0088D96E /* MyColor.swift in Sources */,
+				65724C3428BA107D00628AC1 /* MyImage.swift in Sources */,
 				652999AC28B8E48E0088D96E /* SceneDelegate.swift in Sources */,
+				65724C3028BA09F800628AC1 /* WelcomeScreen.swift in Sources */,
 				652999AE28B8E48E0088D96E /* ContentView.swift in Sources */,
+				65724C3628BA198200628AC1 /* ButtonGeneral.swift in Sources */,
+				652999EA28B8E6D20088D96E /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +716,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		65724C3928BB796F00628AC1 /* XCRemoteSwiftPackageReference "SwiftyDropbox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dropbox/SwiftyDropbox";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.0;
+			};
+		};
+		65724C3C28BB7C7200628AC1 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		65724C3A28BB796F00628AC1 /* SwiftyDropbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65724C3928BB796F00628AC1 /* XCRemoteSwiftPackageReference "SwiftyDropbox" */;
+			productName = SwiftyDropbox;
+		};
+		65724C3D28BB7C7300628AC1 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65724C3C28BB7C7200628AC1 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		65724C3F28BB7C7300628AC1 /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65724C3C28BB7C7200628AC1 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+		65724C4128BB7C7300628AC1 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65724C3C28BB7C7200628AC1 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		65724C4328BB7C7300628AC1 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65724C3C28BB7C7200628AC1 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		65724C4528BB7C7300628AC1 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65724C3C28BB7C7200628AC1 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6529999E28B8E48E0088D96E /* Project object */;
 }

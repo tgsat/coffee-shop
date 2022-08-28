@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "d120af1e8638c7da36c8481fd61a66c0c08dc4fc",
+          "version": "5.4.4"
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift",
+        "state": {
+          "branch": null,
+          "revision": "b4307ba0b6425c0ba4178e138799946c3da594f8",
+          "version": "6.5.0"
+        }
+      },
+      {
+        "package": "SwiftyDropbox",
+        "repositoryURL": "https://github.com/dropbox/SwiftyDropbox",
+        "state": {
+          "branch": null,
+          "revision": "9df3d4997127f1f17ed295e5f373ab676419df08",
+          "version": "8.3.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

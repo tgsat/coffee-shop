@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct MyColors {
+    static let primaryColors = Color("PrimaryColor")
+    static let yellowprimaryColors = Color("YellowPrimaryColor")
+    static let backgroundColors = Color("BackgroundColor")
+    static let whiteColors = Color("WhiteColor")
+    static let blackColors = Color("BlackColor")
+    static let articleColors = Color("ArticleTextColor")
+    // Add more here...
+}
